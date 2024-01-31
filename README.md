@@ -2,6 +2,7 @@
 
 ## TODO
 - [ ] Update project description 
+- [ ] Refactor CSS + Styled Components 
 
 ## Available Scripts
 
