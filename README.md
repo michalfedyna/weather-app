@@ -3,6 +3,7 @@
 ## TODO
 - [ ] Update project description 
 - [ ] Refactor CSS + Styled Components 
+- [ ] Add more icons 
 
 ## Available Scripts
 
