@@ -1,18 +1,5 @@
 # React Weather App 
 
-## Description
-
-## TODO
-
-- [ ] Add a search bar to search for a city
-- [ ] Add a button to get the current location
-- [ ] Add a button to toggle between Celsius and Fahrenheit
-- [ ] Add a button to toggle between dark and light mode
-- [ ] Add a button to toggle between hourly and daily forecast
-- [ ] Add map to show the location of the city
-- [ ] Allow user to add multiple cities
-- [ ] Allow user to select city from map
-
 ## Available Scripts
 
 In the project directory, you can run:
