@@ -9,6 +9,7 @@ import {
   DeleteIcon,
   SearchIcon,
   GPSIcon,
+  SearchButton,
 } from "./SearchBar.styled";
 
 type SearchBarProps = {
@@ -49,10 +50,9 @@ const SearchBar: FC<SearchBarProps> = ({
       <Button style={{ marginRight: "0.5rem" }} onClick={onClearClick}>
         <DeleteIcon />
       </Button>
-      <Button onClick={onSearchClick}>
-        Search
+      <SearchButton onClick={onSearchClick}>
         <SearchIcon />
-      </Button>
+      </SearchButton>
       <List $visible={(queryResults && queryResults?.length > 0) || false}>
         {queryResults?.map((result, index) => (
           <ListItemContainer key={index} onClick={() => onResultClick(result)}>

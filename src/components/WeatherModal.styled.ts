@@ -24,22 +24,22 @@ export const Container = styled.div<{ $visible: boolean }>`
 `;
 
 export const List = styled.div`
-    box-sizing: border-box;
-    padding: 20px 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+  box-sizing: border-box;
+  padding: 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 `;
 
 export const ListRow = styled.div`
-    box-sizing: border-box;
-    padding: 10px 0 20px;
-    overflow-x: scroll;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
+  box-sizing: border-box;
+  padding: 10px 0 20px;
+  overflow-x: scroll;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 `;
 
 export const Header = styled.h1`
@@ -50,53 +50,56 @@ export const Header = styled.h1`
 `;
 
 export const Section = styled.div`
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px,
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow:
+    rgba(9, 30, 66, 0.25) 0 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0 0 0 1px;
-    background-color: #fff;
-    border-radius: 20px;
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 
-    &:hover {
-        background-color: #f5f5f5;
-    }
+  &:hover {
+    background-color: #f5f5f5;
+  }
 `;
 
 export const ColumnSection = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    box-shadow: rgba(9, 30, 66, 0.25) 0 4px 8px -2px,
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow:
+    rgba(9, 30, 66, 0.25) 0 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0 0 0 1px;
-    background-color: #fff;
-    border-radius: 20px;
-    margin: 0 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0 10px;
 
-    &:hover {
-        background-color: #f5f5f5;
-    }
+  &:hover {
+    background-color: #f5f5f5;
+  }
 
-    &:first-child {
-        margin-left: 20px;
-    }
+  &:first-child {
+    margin-left: 20px;
+  }
 
-    &:last-child {
-        margin-right: 20px;
-    }
+  &:last-child {
+    margin-right: 20px;
+  }
 `;
 
 export const SectionHeader = styled.h2`
   font-size: 1rem;
   font-weight: 300;
   margin: 0 0 5px;
+  text-align: center;
 `;
 
 export const Paragraph = styled.p`
@@ -104,6 +107,7 @@ export const Paragraph = styled.p`
   font-weight: 400;
   margin: 0;
   white-space: nowrap;
+  text-align: center;
 `;
 
 export const Column = styled.div`
